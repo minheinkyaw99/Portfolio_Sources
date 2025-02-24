@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Min Hein Kyaw</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <header class="header-fixed glass fade-in">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo gradient-text">MHK</a>
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="about.html" class="nav-link">About</a>
+                <a href="experience.html" class="nav-link">Experience</a>
+                <a href="contact.html" class="nav-link active">Contact</a>
+                <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <main class="contact-page">
+        <div class="container">
+            <section class="contact-section">
+                <div class="contact-header text-reveal fade-in">
+                    <h1>Get in Touch</h1>
+                    <p>I'm always open to new opportunities and collaborations. Let's connect!</p>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-info stagger-list slide-in-left">
+                        <div class="info-card shine-effect">
+                            <i class="fas fa-envelope"></i>
+                            <h3>Email</h3>
+                            <p>mhkyaw9@gmail.com</p>
+                            <a href="mailto:mhkyaw9@gmail.com" class="info-link">Send Email</a>
+                        </div>
+                        <div class="info-card shine-effect">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <h3>Location</h3>
+                            <p>New York, USA</p>
+                            <p class="subtitle">Available for remote work</p>
+                        </div>
+                        <div class="info-card shine-effect">
+                            <i class="fas fa-clock"></i>
+                            <h3>Working Hours</h3>
+                            <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container text-reveal glass slide-in-right">
+                        <form id="contact-form" class="contact-form modern-form">
+                                <div class="form-group">
+                                    <label for="name">Your Name</label>
+                                    <input type="text" id="name" name="name" required placeholder="Enter your name">
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Your Email</label>
+                                    <input type="email" id="email" name="email" required placeholder="Enter your email">
+                                </div>
+                                <div class="form-group">
+                                    <label for="subject">Subject</label>
+                                    <input type="text" id="subject" name="subject" required placeholder="Enter subject">
+                                </div>
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea id="message" name="message" rows="5" required placeholder="Enter your message"></textarea>
+                                </div>
+                            <button type="submit" class="button button-primary full-width">Send Message <i class="fas fa-paper-plane"></i></button>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="social-links text-reveal fade-in">
+                    <h3>Connect With Me</h3>
+                    <p>Follow me on social media for updates and networking.</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/yourusername" target="_blank" class="scale-hover"><i class="fab fa-github"></i></a>
+                        <a href="https://linkedin.com/in/yourusername" target="_blank" class="scale-hover"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://twitter.com/yourusername" target="_blank" class="scale-hover"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Min Hein Kyaw. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
